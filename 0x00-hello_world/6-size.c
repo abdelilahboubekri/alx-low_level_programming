@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - program that prints the size of various types on the computer
- * Return (0) (Success)
+ * main - Entry point
+ * Description: using sizeof to print the size of various types.
+ * Return: (0) (Success)
  */
+
 int main(void)
 {
 	char a;
