@@ -1,0 +1,1 @@
+README for poiter_arrays_strings
