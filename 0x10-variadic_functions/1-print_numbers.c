@@ -1,4 +1,7 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
+
 
 /**
  * print_numbers - it prints numbers with separator
@@ -17,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(nums, n);
 
 
-	for (ap = 0; index < n; ap++)
+	for (ap = 0; ap < n; ap++)
 	{
 		printf("%d", va_arg(nums, int));
 
