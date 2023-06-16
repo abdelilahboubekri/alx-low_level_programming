@@ -10,19 +10,19 @@
 size_t dlistint_len(const dlistint_t *h)
 {
 	int n;
-	n = 0;
+	cnt = 0;
 
 	if (h == NULL)
-		return (n);
+		return (cnt);
 
 	while (h->prev != NULL)
 		h = h->prev;
 
 	while (h != NULL)
 	{
-		count++;
+		cnt++;
 		h = h->next;
 	}
 
-	return (n);
+	return (cnt);
 }
